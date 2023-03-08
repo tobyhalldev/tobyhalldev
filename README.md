@@ -3,7 +3,7 @@
  
 **`Developer`**
 
-I'm an developer and content creator building my version of the digital world one step at a time.
+I'm an developer. Yep just a developer.
 
 
 [website]: https://tobyhall.dev
