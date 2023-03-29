@@ -35,7 +35,7 @@ I'm an developer. Yep just a developer.
 ### 📊 Stats
 
 ![Toby's GitHub stats](https://github-readme-stats.vercel.app/api?username=tobyhalldev&show_icons=true&theme=gruvbox)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tobyhalldev)](https://github.com/anuraghazra/github-readme-stats)
 
 #
 
