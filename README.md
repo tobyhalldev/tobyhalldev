@@ -40,6 +40,6 @@ I'm an developer. Yep just a developer.
 #
 
 <details>
- <summary><h3>👨‍💻 Toby's's Coding Journey</h3></summary>
+ <summary><h3>👨‍💻 Toby's Coding Journey</h3></summary>
  I have developed an interest in minecraft, python, java, html, css and javascript. So i decided to work on a website as it links to the backend of python and the front end of JS, HTML and CSS. I am trying to get started with unity game development soon.
 
