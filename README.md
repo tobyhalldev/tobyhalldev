@@ -3,8 +3,7 @@
  
 **`Developer`**
 
-I'm an developer. Yep just a developer.
-
+I'm a developer.
 
 [website]: https://tobyhall.dev
 [youtube]: tobysec.com
