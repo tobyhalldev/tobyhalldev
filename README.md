@@ -1,9 +1,9 @@
 - 👋 Hi, I’m Toby.!
 - 💻 Developer & Network Manager
 - Languages, Scripting Languages & Sub Languages (vimscript, etc.)
-    ![My most used languages](https://skillicons.dev/icons?i=py,javascript,html,markdown,cs,c,cpp,neovim,dotnet,vim,unreal,powershell,linux,nodejs&perline=7 "My skills at this moment")
+    - ![My most used languages](https://skillicons.dev/icons?i=py,javascript,html,markdown,cs,c,cpp,neovim,dotnet,vim,unreal,powershell,linux,nodejs&perline=7 "My skills at this moment")
 - IDEs
-    ![My IDES](https://skillicons.dev/icons?i=visualstudio,vscode,eclipse,vim "IDE(s) that I utilize")
+   - ![My IDES](https://skillicons.dev/icons?i=visualstudio,vscode,eclipse,vim "IDE(s) that I utilize")
 
 
 
