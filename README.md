@@ -10,8 +10,8 @@
   <a href="https://github.com/tobyhalldev">
     <img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub Badge"/>
   </a>
-  <a href="https://discord.com/">
-    <img src="https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white" alt="Discord Badge"/>
+  <a href="https://tobyhall.dev">
+    <img src="https://img.shields.io/badge/Website-3b5998.svg?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge"/>
   </a>
 </div>
 
@@ -19,7 +19,7 @@
 
 ### 💻 About Me
 
-I'm a backend and systems developer based in the United Kingdom 🇬🇧. I enjoy building performant infrastructure, working with Minecraft server modifications, and diving deep into low-level programming.
+I'm a backend and systems developer based in the United Kingdom 🇬🇧. I enjoy building performant infrastructure, scalable applications, and diving deep into low-level programming.
 
 - 🔭 I’m currently working on **High-performance Backend Systems & Tooling**
 - ⚡ In my free time, I write fast and safe code with **Rust**
