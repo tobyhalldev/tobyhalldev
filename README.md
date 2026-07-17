@@ -1,64 +1,73 @@
 <div align="center">
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FF5555&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Toby+%E2%AD%90;Java+Developer;Complete+Minecraft+Nerd" alt="Typing SVG" />
-
-  <br/>
-
-  [![GitHub](https://img.shields.io/badge/GitHub-tobyhalldev-FF5555?style=for-the-badge&logo=github)](https://github.com/tobyhalldev)
-  [![Discord](https://img.shields.io/badge/Discord-Join-FF5555?style=for-the-badge&logo=discord)](https://github.com/tobyhalldev)
-  [![Profile Views](https://komarev.com/ghpvc/?username=tobyhalldev&color=FF5555&style=for-the-badge&label=VIEWS)](https://github.com/tobyhalldev)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Toby%20Hall&fontSize=80&fontAlignY=35&desc=Java%20Developer%20%7C%20Spigot%20Enthusiast&descAlignY=55&descAlign=50" alt="Header" />
 </div>
 
+<p align="center">
+  <em>Passionate developer from the UK crafting backend systems and custom Minecraft plugins.</em>
+</p>
+
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,python,gradle,maven,mysql,git,github,idea&theme=dark" />
+  <a href="https://github.com/tobyhalldev">
+    <img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub Badge"/>
+  </a>
+  <a href="https://discord.com/">
+    <img src="https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white" alt="Discord Badge"/>
   </a>
 </div>
 
----
+<br>
 
-<details>
-<summary align="center">Start Building Me</summary>
-
+### 💻 About Me
 ```java
-@Singleton @Builder @SuppressWarnings("unchecked")
-public final class Toby extends AbstractDeveloper
-        implements Initializable, Validatable, Serializable {
+package dev.tobyhall.core;
 
-    private static final long serialVersionUID = 0xDEADBEEFL;
-    private static volatile Toby INSTANCE;
+import org.bukkit.ChatColor;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.plugin.java.JavaPlugin;
 
-    private final AtomicBoolean initialized     = new AtomicBoolean(false);
-    private final ReentrantReadWriteLock lock    = new ReentrantReadWriteLock();
-
-    @NonNull private final String   name     = "Toby Hall";
-    @NonNull private final String   location = "United Kingdom 🇬🇧";
-    @NonNull private final List<Role> roles  = List.of(Role.JAVA_DEVELOPER, Role.MINECRAFT_DEVELOPER);
-
-    public static synchronized Toby getInstance() {
-        return INSTANCE == null ? (INSTANCE = new Toby()) : INSTANCE;
-    }
+public class TobyProfile extends JavaPlugin implements Listener {
 
     @Override
-    public CompletableFuture<Void> onEnable() {
-        return CompletableFuture.runAsync(() -> {
-            lock.writeLock().lock();
-            try { this.validate(); this.initializeServices(); this.initialized.set(true); }
-            finally { lock.writeLock().unlock(); }
-        }).thenRun(() -> LOGGER.info("[✅] Toby Dev Environment ⟿ Ready."))
-          .exceptionally(ex -> { throw new DevEnvironmentException("Bootstrap failed", ex); });
+    public void onEnable() {
+        getLogger().info("Initializing Developer: Toby Hall...");
+        getLogger().info("► Languages: Java, Python");
+        getLogger().info("► Specialty: Spigot/Paper Plugin Development ⚔️");
+        getLogger().info("► Location: United Kingdom 🇬🇧");
+        getLogger().info("► Fuel: Coffee ☕");
+        
+        getServer().getPluginManager().registerEvents(this, this);
+        getLogger().info("Toby is now online and ready to code!");
+    }
+    
+    @EventHandler
+    public void onFeatureRequest(AsyncPlayerChatEvent event) {
+        if (event.getMessage().toLowerCase().contains("can you add this feature")) {
+            event.setCancelled(true);
+            event.getPlayer().sendMessage(ChatColor.GOLD + "Added to the backlog! (It might never get done)");
+        }
     }
 }
 ```
-</details>
 
+<br>
+
+### 🛠️ Tech Stack
 <div align="center">
-  <img src="https://github-readme-stats-rho-puce-69.vercel.app/api?username=tobyhalldev&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" height="165" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats-rho-puce-69.vercel.app/api/top-langs/?username=tobyhalldev&layout=compact&theme=radical&hide_border=true&langs_count=6" height="165" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,python,gradle,maven,mysql,git,github,idea,linux&theme=dark&perline=9" alt="Tech Stack"/>
+  </a>
 </div>
 
-<div align="center"> 
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tobyhalldev&theme=redical&hide_border=true&area=true" width="95%" /> 
+<br>
+
+### 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tobyhalldev&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tobyhalldev&layout=compact&theme=nord&hide_border=true&bg_color=0D1117" height="150" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tobyhalldev&theme=nord&hide_border=true&background=0D1117" />
 </div>
