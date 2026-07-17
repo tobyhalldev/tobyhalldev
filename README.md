@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Toby%20Hall&fontSize=80&fontAlignY=35&desc=Java%20Developer%20%7C%20Spigot%20Enthusiast&descAlignY=55&descAlign=50" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Toby%20Hall&fontSize=80&fontAlignY=35&desc=Backend%20%26%20Systems%20Developer&descAlignY=55&descAlign=50" alt="Header" />
 </div>
 
 <p align="center">
-  <em>Passionate developer from the UK crafting backend systems and custom Minecraft plugins.</em>
+  <em>Passionate developer from the UK crafting high-performance systems and backend infrastructure.</em>
 </p>
 
 <div align="center">
@@ -18,56 +18,42 @@
 <br>
 
 ### 💻 About Me
-```java
-package dev.tobyhall.core;
 
-import org.bukkit.ChatColor;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-import org.bukkit.plugin.java.JavaPlugin;
+I'm a backend and systems developer based in the United Kingdom 🇬🇧. I enjoy building performant infrastructure, working with Minecraft server modifications, and diving deep into low-level programming.
 
-public class TobyProfile extends JavaPlugin implements Listener {
-
-    @Override
-    public void onEnable() {
-        getLogger().info("Initializing Developer: Toby Hall...");
-        getLogger().info("► Languages: Java, Python");
-        getLogger().info("► Specialty: Spigot/Paper Plugin Development ⚔️");
-        getLogger().info("► Location: United Kingdom 🇬🇧");
-        getLogger().info("► Fuel: Coffee ☕");
-        
-        getServer().getPluginManager().registerEvents(this, this);
-        getLogger().info("Toby is now online and ready to code!");
-    }
-    
-    @EventHandler
-    public void onFeatureRequest(AsyncPlayerChatEvent event) {
-        if (event.getMessage().toLowerCase().contains("can you add this feature")) {
-            event.setCancelled(true);
-            event.getPlayer().sendMessage(ChatColor.GOLD + "Added to the backlog! (It might never get done)");
-        }
-    }
-}
-```
+- 🔭 I’m currently working on **High-performance Backend Systems & Tooling**
+- ⚡ In my free time, I write fast and safe code with **Rust**
+- 🌱 I’m currently exploring **Distributed Systems, Docker & Containerization**
+- 💬 Ask me about **Java, Rust, or Systems Architecture**
 
 <br>
 
 ### 🛠️ Tech Stack
+
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,python,gradle,maven,mysql,git,github,idea,linux&theme=dark&perline=9" alt="Tech Stack"/>
+    <img src="https://skillicons.dev/icons?i=rust,java,python,c,cpp,go,js,ts,nodejs,bash,linux,docker,mysql,postgres,mongodb,redis,git,github,gradle,maven,idea,vscode&theme=dark&perline=11" alt="Tech Stack"/>
   </a>
 </div>
 
 <br>
 
 ### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tobyhalldev&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tobyhalldev&layout=compact&theme=nord&hide_border=true&bg_color=0D1117" height="150" />
-</div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tobyhalldev&theme=nord&hide_border=true&background=0D1117" />
+  <a href="https://github.com/tobyhalldev">
+    <img src="https://github-stats-extended.vercel.app/api?username=tobyhalldev&rank_icon=default&hide_rank=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/tobyhalldev">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=tobyhalldev&layout=compact&langs_count=6&theme=github_dark" height="180" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://wakatime.com/@tobyhalldev">
+    <img src="https://github-stats-extended.vercel.app/api/wakatime?username=tobyhalldev&langs_count=6&theme=github_dark" height="180" />
+  </a>
 </div>
