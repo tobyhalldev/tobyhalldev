@@ -1,7 +1,7 @@
 # Toby Hall
 
 **Backend & Systems Developer**  
-📍 United Kingdom
+> United Kingdom
 
 I am a software engineer focused on building performant infrastructure, scalable applications, and low-level systems programming.
 
@@ -20,15 +20,6 @@ I am a software engineer focused on building performant infrastructure, scalable
 
 ### Overview
 
-<a href="https://github.com/tobyhalldev">
-  <img src="https://github-stats-extended.vercel.app/api?username=tobyhalldev&rank_icon=default&hide_rank=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark" />
-</a>
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=tobyhalldev&rank_icon=default&hide_rank=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark)](https://github.com/tobyhalldev)
 
-<br><br>
-
-<a href="https://github.com/tobyhalldev">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=tobyhalldev&layout=compact&langs_count=6&theme=github_dark" height="180" />
-</a>
-<a href="https://wakatime.com/@tobyhalldev">
-  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=tobyhalldev&langs_count=6&theme=github_dark" height="180" />
-</a>
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs?username=tobyhalldev&layout=compact&langs_count=6&theme=github_dark)](https://github.com/tobyhalldev) [![Wakatime](https://github-stats-extended.vercel.app/api/wakatime?username=tobyhalldev&langs_count=6&theme=github_dark)](https://wakatime.com/@tobyhalldev)
