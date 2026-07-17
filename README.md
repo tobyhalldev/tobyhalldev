@@ -3,7 +3,7 @@
 **Backend & Systems Developer**  
 > United Kingdom
 
-I am a software engineer focused on building performant infrastructure, scalable applications, and low-level systems programming.
+Software engineer focused on building performant and scalable platforms and ai stuff.
 
 [![Website](https://img.shields.io/badge/Website-tobyhall.dev-3b5998.svg?style=flat-square&logo=google-chrome&logoColor=white)](https://tobyhall.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-tobyhalldev-181717.svg?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/tobyhalldev)
@@ -13,8 +13,19 @@ I am a software engineer focused on building performant infrastructure, scalable
 ### Tech Stack
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=rust,java,python,c,cpp,go,js,ts,nodejs,bash,linux,docker,mysql,postgres,mongodb,redis,git,github,gradle,maven,idea,vscode&theme=dark&perline=12" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=rust,java,python,ts,react,nextjs,tailwind,nodejs,bun,nestjs,prisma,postgres,redis,rabbitmq,docker,kubernetes,aws,cloudflare,terraform,githubactions,pnpm,sentry,figma,notion,idea,vscode&theme=dark&perline=13" alt="Tech Stack Icons"/>
 </a>
+
+<br><br>
+
+| Area | Technologies |
+|------|--------------|
+| **Frontend** | Next.js, React, TypeScript, Tailwind CSS, shadcn/ui |
+| **Backend & APIs** | Node.js, Bun, NestJS, Hono, OpenAPI |
+| **Data & State** | PostgreSQL, Prisma, Redis, TanStack Query, Zustand |
+| **Architecture** | WebSockets, RabbitMQ / NATS, BullMQ |
+| **Infrastructure** | Docker, Kubernetes, Terraform, AWS, Cloudflare, Caddy |
+| **Tools & CI/CD** | GitHub Actions, Turborepo, pnpm, Biome, Sentry, Datadog |
 
 <br>
 
